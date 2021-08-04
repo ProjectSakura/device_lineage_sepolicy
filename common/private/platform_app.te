@@ -12,3 +12,6 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
 
 # Allow PowerShare HAL service to be found
 hal_client_domain(platform_app, hal_lineage_powershare)
+
+# For Datura to set persist.sys.global.cleartext
+set_prop(platform_app, system_exported_cleartext_prop)

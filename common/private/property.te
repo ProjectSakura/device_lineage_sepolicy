@@ -1,1 +1,2 @@
 type recovery_update_prop, property_type, extended_core_property_type;
+system_restricted_prop(system_exported_cleartext_prop);
