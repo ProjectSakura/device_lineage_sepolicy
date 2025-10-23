@@ -29,6 +29,8 @@ ro.vendor.audio.dolby.surround.enable  u:object_r:exported_system_prop:s0
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
 
 # Pixel props
+persist.sys.spoof.                     u:object_r:custom_version_prop:s0
+persist.sys.pihooks.                   u:object_r:custom_version_prop:s0
 persist.sys.pixelprops.                u:object_r:custom_version_prop:s0
 
 # Recovery battery
